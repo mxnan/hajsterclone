@@ -5,7 +5,7 @@ const App = () => {
     <>
       <div className="App relative">
         <Navbar />
-        <div className="Content">
+        <div className="Content overflow-hidden">
           <Hero />
           <Intro />
         </div>
