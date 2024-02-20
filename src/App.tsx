@@ -5,7 +5,7 @@ const App = () => {
     <>
       <div className="App relative">
         <Navbar />
-        <div className="Content overflow-hidden ">
+        <div className="Content bg-[rgb(229,221,221)]  overflow-hidden ">
           <Hero />
           <Intro />
           <Sales />

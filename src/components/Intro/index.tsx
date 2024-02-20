@@ -1,9 +1,9 @@
 export const Intro = () => {
   return (
-    <section className="wrapper">
+    <section className="wrapper bg-[#f5f5f5]">
       {/*content*/}
       <div
-        className=" h-[60vh] w-full flex flex-col
+        className=" h-[80vh] w-full flex flex-col
       px-6 py-12 justify-around
       "
       >

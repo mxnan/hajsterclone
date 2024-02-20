@@ -1,9 +1,3 @@
-
 export const Functioning = () => {
-  return (
-    <section className='wrapper h-screen w-full'>
-
-    </section>
-  )
-}
-
+  return <section className="wrapper h-screen w-full"></section>;
+};
