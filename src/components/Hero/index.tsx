@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import { herovideo } from "../../assets/videohero";
+import { herovideo } from "../../assets";
+
 
 export const Hero = () => {
   return (
@@ -9,7 +10,7 @@ export const Hero = () => {
       "
       >
         {/*content*/}
-        <div className="flex flex-col gap-16 h-max  px-6 pt-52  ">
+        <div className="flex flex-col gap-16 h-max   px-6 pt-52  ">
           <h1 className="capitalize text-7xl font-semibold ">
             Doing climate right
           </h1>
@@ -22,7 +23,8 @@ export const Hero = () => {
         </div>
         {/*content end */}
         {/*video */}
-        <motion.div className="w-full relative h-max  -z-10 ">
+        <motion.div className="w-full relative -z-10 
+        ">
           <video autoPlay muted loop playsInline className="absolute w-full bottom-0  ">
             <source src={herovideo} type="video/mp4" />
           </video>

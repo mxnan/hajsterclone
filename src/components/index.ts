@@ -1,3 +1,6 @@
 export * from "./Navbar"
 export * from "./Hero"
 export * from "./Intro"
+export * from "./Sales"
+export * from "./Functioning"
+export * from "./Housing"
