@@ -5,19 +5,32 @@ export const Hero = () => {
   return (
     <section className="wrapper relative">
       <div
-        className=" relative h-screen w-full flex flex-col 
+        className=" relative h-screen w-full bg-[rgb(229,221,221)] flex flex-col 
       "
       >
         {/*content*/}
-        <div className="flex flex-col gap-16 h-full z-10  px-6 pt-52  ">
-          <h1 className="capitalize text-7xl font-semibold ">
+        <div
+          className="flex flex-col 
+        lg:flex-row  gap-16   h-full z-10  
+        items-start md:items-center lg:justify-between
+        
+       
+         px-6 lg:px-12 pt-52  "
+        >
+          <h1
+            className="capitalize
+           md:text-center lg:text-start
+           text-7xl lg:text-9xl xl:text-[9rem] lg:w-2/3
+           font-semibold lg:font-bold "
+          >
             Doing climate right
           </h1>
-          <h1 className="text-xl font-medium">
+          <h1 className="text-xl md:text-[24px] 
+          lg:text-2xl xl:text-3xl md:text-center lg:text-start 
+          font-medium lg:font-semibold">
             Heating,
-            <br /> &nbsp; cooling, <br /> &nbsp;&nbsp; and hot water <br />
-            &nbsp;&nbsp;&nbsp; with minimal costs and <br />{" "}
-            &nbsp;&nbsp;&nbsp;&nbsp; without harming the environment.
+            <br /> cooling, <br /> and hot water <br />
+            with minimal costs and <br /> without harming the environment.
           </h1>
         </div>
 
