@@ -15,7 +15,7 @@ export const Hero = () => {
         items-start md:items-center lg:justify-between
         
        
-         px-6 lg:px-12 pt-52  "
+         px-6 lg:px-12 max-lg:pt-52 lg:py-32  "
         >
           <h1
             className="capitalize
