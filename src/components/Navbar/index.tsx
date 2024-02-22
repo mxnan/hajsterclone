@@ -4,7 +4,7 @@ import { HiMenuAlt4 } from "react-icons/hi";
 export const Navbar = () => {
   return <header className="wrapper relative z-10">
     <div className="fixed w-full h-24
-    px-6 
+    px-6 lg:px-[4vw]
     flex items-center justify-between">
        <img src={hajsterlogo} alt="logo" className="w-16 h-16" />
        <button className="rounded-full p-[4px] border-[#292828] border-[2px]">

@@ -15,18 +15,18 @@ export const Hero = () => {
         items-start md:items-center lg:justify-between
         
        
-         px-6 lg:px-12 max-lg:pt-52 lg:py-32  "
+         px-6 lg:px-[4vw] max-lg:pt-52 lg:py-32  "
         >
           <h1
             className="capitalize
            md:text-center lg:text-start
            text-7xl lg:text-9xl xl:text-[9rem] lg:w-2/3
-           font-semibold lg:font-bold "
+           font-medium lg:font-semibold "
           >
             Doing climate right
           </h1>
           <h1 className="text-xl md:text-[24px] 
-          lg:text-2xl xl:text-3xl md:text-center lg:text-start 
+          lg:text-2xl md:text-center lg:text-start 
           font-medium lg:font-semibold">
             Heating,
             <br /> cooling, <br /> and hot water <br />
