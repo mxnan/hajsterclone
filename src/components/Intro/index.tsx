@@ -1,10 +1,12 @@
 export const Intro = () => {
   return (
-    <section className="wrapper bg-[#f5f5f5]">
+    <section className="wrapper ">
       {/*content*/}
       <div
-        className=" h-[80vh] w-full flex flex-col lg:flex-row
-      px-6 py-12 justify-around lg:justify-between items-center
+        className=" h-[70vh] w-full flex flex-col lg:flex-row
+      px-6 lg:px-[4vw] py-12 
+      justify-around lg:justify-between 
+      items-center
       "
       >
         <div className="flex flex-col

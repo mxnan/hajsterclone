@@ -3,7 +3,7 @@ import { housing1, housing2 } from "../../assets";
 export const Housing = () => {
   return (
     <section className="wrapper h-full w-full">
-      <div className="relative h-full w-full px-6 py-16">
+      <div className="relative h-full w-full px-6 lg:px-[4vw] py-16">
         <h1 className="text-4xl md:text-5xl
         xl:mr-96 lg:text-7xl
         max-lg:text-center lg:text-end">

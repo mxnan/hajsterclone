@@ -1,6 +1,6 @@
 export const Functioning = () => {
   return (
-    <section className="wrapper h-[80vh] w-full bg-[#f5f5f5] py-12 lg:px-6 ">
+    <section className="wrapper h-[80vh] w-full  py-12 lg:px-[4vw] ">
       <div
         className="w-full h-full  rounded-3xl bg-[rgb(141,138,138)]
        flex flex-col xl:flex-row

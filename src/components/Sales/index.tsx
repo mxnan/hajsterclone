@@ -3,13 +3,9 @@ import { FaAngleRight } from "react-icons/fa";
 
 export const Sales = () => {
   return (
-    <section
-      className="wrapper bg-[#f5f5f5] h-full w-full 
-      lg:px-6
-    "
-    >
+    <section className="wrapper  h-full w-full lg:px-[4vw]">
       <div
-        className="w-full h-full bg-[rgb(229,221,221)]  rounded-3xl
+        className="w-full h-full bg-[rgb(229,221,221)] py-[10vh] px-10  rounded-3xl
       
       "
       >
