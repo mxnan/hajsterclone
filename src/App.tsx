@@ -1,4 +1,5 @@
 import {
+  FormSection,
   Functioning,
   Hero,
   Housing,
@@ -21,7 +22,8 @@ const App = () => {
           <Functioning />
           <Housing />
           <Mobilesection />
-          <ScrollSection />
+          {/*<ScrollSection /> */}
+          <FormSection />
         </div>
       </div>
     </>
