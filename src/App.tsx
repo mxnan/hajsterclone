@@ -1,4 +1,13 @@
-import { Functioning, Hero,  Housing,  Intro, Mobilesection, Navbar, Sales, } from "./components";
+import {
+  Functioning,
+  Hero,
+  Housing,
+  Intro,
+  Mobilesection,
+  Navbar,
+  Sales,
+  ScrollSection,
+} from "./components";
 
 const App = () => {
   return (
@@ -12,7 +21,7 @@ const App = () => {
           <Functioning />
           <Housing />
           <Mobilesection />
-         
+          <ScrollSection />
         </div>
       </div>
     </>
