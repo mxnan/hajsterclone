@@ -3,7 +3,7 @@ import { mobile } from "../../assets";
 
 export const Mobilesection = () => {
   return (
-    <section className="wrapper h-full w-full px-6 lg:px-[4vw] pb-24">
+    <section className="wrapper h-full w-full px-6 lg:px-[4vw] py-36">
       <div className="w-full h-full 
        flex flex-col items-center 
        lg:flex-row lg:justify-evenly

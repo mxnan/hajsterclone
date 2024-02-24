@@ -5,5 +5,15 @@ import sales3 from "./sales3.jpg";
 import housing1 from "./housing1.jpg";
 import housing2 from "./housing2.jpg";
 import mobile from "./mobile.png";
+import formhajster from "./formhajster.jpg";
 
-export { hajsterlogo, sales1, sales2, sales3, housing1, housing2, mobile };
+export {
+  hajsterlogo,
+  sales1,
+  sales2,
+  sales3,
+  housing1,
+  housing2,
+  mobile,
+  formhajster,
+};
