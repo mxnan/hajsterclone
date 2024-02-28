@@ -7,14 +7,13 @@ export const FormSection = () => {
       <div
         className="w-full h-full  bg-[rgb(229,221,221)] rounded-3xl
      flex flex-col lg:flex-row overflow-hidden
-     xl:px-40
+     xl:px-16 xxl:px-36
     "
       >
         <div
           className="w-full h-full
-           flex flex-col 
-            
-        max-sm:px-6 px-6 xl:px-12
+           flex flex-col          
+        max-sm:px-6 px-6 xl:px-6
         lg:w-[1/2]
         py-16 "
         >

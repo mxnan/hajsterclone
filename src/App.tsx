@@ -2,6 +2,7 @@ import {
   FormSection,
   Functioning,
   Hero,
+  Historysection,
   Housing,
   ImageSection,
   Intro,
@@ -26,6 +27,7 @@ const App = () => {
           {/*<ScrollSection /> */}
           <FormSection />
           <ImageSection />
+          <Historysection />
         </div>
       </div>
     </>

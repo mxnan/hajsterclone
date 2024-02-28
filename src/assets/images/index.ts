@@ -6,6 +6,9 @@ import housing1 from "./housing1.jpg";
 import housing2 from "./housing2.jpg";
 import mobile from "./mobile.png";
 import formhajster from "./formhajster.jpg";
+import image1 from "./imagesec3.jpg";
+import image2 from "./imagesec2.jpg";
+import imagesvg from "./imagesec1.svg";
 
 export {
   hajsterlogo,
@@ -16,4 +19,7 @@ export {
   housing2,
   mobile,
   formhajster,
+  image1,
+  image2,
+  imagesvg,
 };
