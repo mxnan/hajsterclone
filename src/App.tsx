@@ -2,14 +2,16 @@ import {
   FormSection,
   Functioning,
   Hero,
-  Historysection,
+  CTASection,
   Housing,
   ImageSection,
   Intro,
+  MeetSection,
   Mobilesection,
   Navbar,
   Sales,
- // ScrollSection,
+  Footer,
+
 } from "./components";
 
 const App = () => {
@@ -24,10 +26,12 @@ const App = () => {
           <Functioning />
           <Housing />
           <Mobilesection />
-          {/*<ScrollSection /> */}
+        
           <FormSection />
           <ImageSection />
-          <Historysection />
+          <MeetSection />
+          <CTASection />
+          <Footer />
         </div>
       </div>
     </>
