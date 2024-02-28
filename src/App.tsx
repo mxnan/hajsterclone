@@ -11,7 +11,6 @@ import {
   Navbar,
   Sales,
   Footer,
-
 } from "./components";
 
 const App = () => {
@@ -26,7 +25,6 @@ const App = () => {
           <Functioning />
           <Housing />
           <Mobilesection />
-        
           <FormSection />
           <ImageSection />
           <MeetSection />
