@@ -9,6 +9,8 @@ import formhajster from "./formhajster.jpg";
 import image1 from "./imagesec3.jpg";
 import image2 from "./imagesec2.jpg";
 import imagesvg from "./imagesec1.svg";
+import cta from "./CTA.jpg";
+import footersahara from "./footersahara.svg";
 
 export {
   hajsterlogo,
@@ -22,4 +24,6 @@ export {
   image1,
   image2,
   imagesvg,
+  cta,
+  footersahara,
 };

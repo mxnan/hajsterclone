@@ -21,7 +21,8 @@ export const ImageSection = () => {
         </div>
         <div
           className="rounded-3xl relative overflow-hidden
-         w-full h-2/4 xl:h-full
+          flex items-center justify-center
+         w-full h-2/4 xl:h-full 
          md:h-3/4 md:w-2/3"
         >
           <img src={image2} alt="image2" className="bg-center rounded-3xl " />
